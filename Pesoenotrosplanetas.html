@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Peso en otro planeta</title>
+    <style type="text/css">
+      body
+      {
+          background-color: green;
+          color: white;
+          font-family: Helvetica;
+      }
+      strong
+      {
+          color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Descrube tu peso en otros planetas que no son la tierra</h1>
+    <p>Para eso nos tienes que indicar <strong> tu peso</strong></p>
+      <script type="text/javascript">
+				alert("Nos tienes que dar tu peso");
+ 			 var peso = prompt("Dinos tu peso actual")
+  // planetas a trabajar: todos los del sistema solar
+  		var g_mercurio = 3.7;
+  	var g_venus = 8.87;
+		var g_tierra = 9.8;
+  	var g_marte = 3.711;
+  	var g_jupiter = 28.4;
+ 	  var g_saturno = 10.44;
+  	var g_urano = 8.7;
+ 	  var g_neptuno = 11.15;
+  	var g_pluton = 0.62;
+pesoenjupiter = g_jupiter * peso / g_tierra
+pesoenjupiter = parseInt(pesoenjupiter);
+
+document.write("tu peso en jupiter es " + pesoenjupiter);
+  // ensayo y error
+
+      </script>
+  </body>
+</html>

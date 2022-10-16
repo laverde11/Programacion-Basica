@@ -1,0 +1,52 @@
+<!-- HTML:  Asi se escriben comentarios en HTML -->
+<!--CSS: /* Asi se escriben comentarios en CSS */
+  JS: // Asi se escriben comentaros de una sola linea en JS //
+/* Asi se escriben comentarios multilineas en JS */
+
+<!DOCTYPE html>
+<!- Esto es una buena practica para indicar el estandar de HTML 5 -->
+<html>
+<head> <!-- Contiene todos los elementos no visuales de la pagina,metadatos, etc... -->
+  <meta charset="utf-8"/>
+  <!-- - Algunas etiquetas no necesitan ser cerradas como por ejemplo esta, que
+  se coloca para que las tildes sean reconocidas por el navegador, pero es una
+  buena practica cerrarla, otros ejemplos: <br>"pasaria a esto"<br/>, etc... -->
+  <title>Mi primer archivo HTML</title>
+  <!-- <title/> Sirve para poner un titulo a tu pagina. El titulo es muy importante
+   ya que google le da mucha relevancia para que encuentren tu pagina en los navegadores -->
+  <style type="text/css"> /* <style/> Es utilizada para definir un codigo en CSS, se coloca dentro de head */
+  /* type="text/css" Esto es un atributo de la etiqueta */
+  body
+  {
+    background-color: #AAAAFF;
+    /* background-color es el atributo que cambia el color de fondo de tu pagina */
+    color: white;
+    /* Color es el atributo que cambia el color del texto de tu pagina */
+    font-family: Helvetica;
+    /* font-family es el atributo que cambia la fuente de tu pagina */
+  }
+  strong
+  {
+    background-color: #FFAAAA;
+    /* Para ver el codigo hexagecimal del color que deseas escribe en google: #ffffff */
+  }
+  </style>
+</head>
+<body> <!-- Contiene todos los elementos visuales de la pagina -->
+  <p>Hola <strong>ya casi</strong> aprendo</p>
+  <!-- <strong/> sirve para poner negrita -->
+  <p>Esto es un parrafo</p>
+  <!-- <p/> es un parrafo, RECUERDA: Todos los textos en HTML deben estar envueltos
+  por etiquetas, la mas sencilla es <p/> -->
+  <script type="text/javascript"> // <script/> Es utilizada para definir un codigo JavaScript, se coloca antes de terminar el body //
+    var $x = 1;
+    // var declara una variable, como let o const //
+    var _y = 2;
+    // Las variables tienen reglas: No pueden empezar con numeros (solo con letras), se diferencian mayusculas y minusculas, y no se pueden usar caracteres raros (como ñ o tildes) ni espacios.
+    var Julian_laverde = $x + _y;
+    document.write("El valor de Z es " + Julian_laverde);
+    // document.write es una funcion que escribe strings dentro de html, es como body pero dentro de JavaScript //
+  </script>
+</body>
+</html>
+
